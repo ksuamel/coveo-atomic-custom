@@ -8,10 +8,12 @@
     "build": "npm run build --workspaces",
     "start": "stencil build --dev --watch --serve",
     "test": "stencil test --spec --e2e",
-    "test.watch": "stencil test --spec --e2e --watchAll"
+    "test.watch": "stencil test --spec --e2e --watchAll",
+    "package": "npm run package --workspaces"
   },
   "workspaces": [
-    "packages/*"
+    "packages/avid-atomic",
+    "packages/avid-atomic-react"
   ],
   "devDependencies": {
     "@types/node": "^20.3.1",

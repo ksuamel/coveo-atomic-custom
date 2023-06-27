@@ -27,7 +27,7 @@
     "test": "node ./__tests__/react-library.test.js",
     "build": "npm run tsc",
     "tsc": "tsc -p .",
-    "package": "npm run pack"
+    "package": "npm pack"
   },
   "bugs": {
     "url": "https://github.com/avid-com/Sitecore/issues"

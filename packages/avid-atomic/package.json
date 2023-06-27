@@ -24,7 +24,7 @@
     "test": "stencil test --spec --e2e",
     "test.watch": "stencil test --spec --e2e --watchAll",
     "generate": "stencil generate",
-    "package": "npm run pack --pack-destination ../"
+    "package": "npm pack"
   },
   "dependencies": {
     "@coveo/atomic": "^2.32.0",
