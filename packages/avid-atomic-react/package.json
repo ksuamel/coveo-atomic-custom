@@ -1,6 +1,6 @@
 {
   "name": "@avid/avid-atomic-react",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Avid Coveo Atomic custom components",
   "author": "",
   "homepage": "https://github.com/avid-com/Sitecore",
@@ -37,5 +37,6 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "typescript": "^5.1.3"
-  }
+  },
+  "gitHead": "41006e1a97041fc1ec15e3cb5cf925df494b4d5d"
 }
