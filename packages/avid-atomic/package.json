@@ -1,7 +1,7 @@
 {
   "name": "@jcore/avid-atomic",
-  "version": "0.0.10",
-  "description": "Avid Coveo Atomic custom components",
+  "version": "0.0.11",
+  "description": "Avid Coveo Atomic custom components React wrapper",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
   "es2015": "dist/esm/index.mjs",
@@ -40,5 +40,5 @@
     "puppeteer": "^19.5.2"
   },
   "license": "MIT",
-  "gitHead": "0a0b3a626423402a01958dfa8f85a36aa22e792e"
+  "gitHead": "e83e05f5a0d5b0334a8cdaf6ae850dfdd6a685a6"
 }
