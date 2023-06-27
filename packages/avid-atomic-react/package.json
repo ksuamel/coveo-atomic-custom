@@ -1,6 +1,6 @@
 {
   "name": "@jcore/avid-atomic-react",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Avid Coveo Atomic custom components React wrapper",
   "author": "",
   "homepage": "https://github.com/jcore/coveo-atomic-custom",
@@ -11,6 +11,9 @@
   "directories": {
     "lib": "lib",
     "test": "__tests__"
+  },
+  "dependencies": {
+    "@jcore/avid-atomic": "^0.0.10"
   },
   "files": [
     "dist"
