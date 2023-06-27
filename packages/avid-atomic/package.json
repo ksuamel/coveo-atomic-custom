@@ -1,7 +1,7 @@
 {
-  "name": "@avid/avid-atomic",
-  "version": "0.0.8",
-  "description": "Stencil Component Starter",
+  "name": "@jcore/avid-atomic",
+  "version": "0.0.9",
+  "description": "Avid Coveo Atomic custom components",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
   "es2015": "dist/esm/index.mjs",
@@ -12,7 +12,7 @@
   "unpkg": "dist/avid-atomic/avid-atomic.esm.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/avid-com/coveo-atomic-custom.git"
+    "url": "https://github.com/jcore/coveo-atomic-custom.git"
   },
   "files": [
     "dist/",
@@ -40,5 +40,5 @@
     "puppeteer": "^19.5.2"
   },
   "license": "MIT",
-  "gitHead": "ae84f5e851bb83d1a211b970807bad52c7cda7fe"
+  "gitHead": "0a0b3a626423402a01958dfa8f85a36aa22e792e"
 }
