@@ -1,0 +1,51 @@
+{
+  "name": "@jcore/custom-atomic",
+  "version": "0.0.12",
+  "description": "Coveo Atomic custom components React wrapper",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.js",
+  "es2015": "dist/esm/index.mjs",
+  "es2017": "dist/esm/index.mjs",
+  "types": "dist/types/index.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "collection:main": "dist/collection/index.js",
+  "unpkg": "dist/custom-atomic/custom-atomic.esm.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jcore/coveo-atomic-custom.git"
+  },
+  "files": [
+    "dist/",
+    "loader/"
+  ],
+  "scripts": {
+    "clean": "rimraf -rf dist/*",
+    "build": "stencil build --docs",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll",
+    "generate": "stencil generate",
+    "package": "npm pack"
+  },
+  "dependencies": {
+    "@coveo/atomic": "^2.32.0",
+    "@coveo/headless": "^2.18.4",
+    "@stencil/core": "^3.4.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-alias": "3.1.9",
+    "@rollup/plugin-replace": "2.4.2",
+    "@stencil/angular-output-target": "0.4.0",
+    "@stencil/postcss": "2.1.0",
+    "@stencil/react-output-target": "^0.5.3",
+    "@stencil/store": "1.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.11",
+    "jest": "^27.5.1",
+    "jest-cli": "^27.5.1",
+    "puppeteer": "^19.5.2",
+    "rollup-plugin-html": "0.2.1"
+  },
+  "license": "MIT",
+  "gitHead": "e83e05f5a0d5b0334a8cdaf6ae850dfdd6a685a6"
+}
