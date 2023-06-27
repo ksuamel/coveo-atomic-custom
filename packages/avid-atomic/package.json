@@ -1,6 +1,6 @@
 {
   "name": "@avid/avid-atomic",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Stencil Component Starter",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
@@ -40,5 +40,5 @@
     "puppeteer": "^19.5.2"
   },
   "license": "MIT",
-  "gitHead": "a707e060442adba307ae46c097f3cb8d3da420b7"
+  "gitHead": "ae84f5e851bb83d1a211b970807bad52c7cda7fe"
 }
