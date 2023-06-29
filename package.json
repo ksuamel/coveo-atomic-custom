@@ -1,5 +1,5 @@
 {
-  "name": "@avid/custom-coveo-atomic-components",
+  "name": "@jcore/custom-coveo-atomic",
   "private": true,
   "version": "0.0.2",
   "description": "A project containing Custom Coveo Atomic components",
@@ -12,8 +12,8 @@
     "package": "npm run package --workspaces"
   },
   "workspaces": [
-    "packages/avid-atomic",
-    "packages/avid-atomic-react"
+    "packages/custom-atomic",
+    "packages/custom-atomic-react"
   ],
   "devDependencies": {
     "@types/node": "^20.3.1",

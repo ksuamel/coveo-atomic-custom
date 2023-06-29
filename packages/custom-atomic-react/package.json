@@ -19,7 +19,7 @@
     "@jcore/custom-atomic": "0.0.13"
   },
   "publishConfig": {
-    "access": "private",
+    "access": "public",
     "registry": "https://npm.pkg.github.com"
   },
   "repository": {
