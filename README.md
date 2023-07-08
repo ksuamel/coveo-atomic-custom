@@ -1,5 +1,10 @@
 # coveo-atomic-custom
 
+## prerequisites
+
+install lerna cli globally
+install concurrently globally
+
 ## to publish
 
 lerna publish
