@@ -110,12 +110,14 @@ export class AtomicCustomTab {
 
     const activeClass = this.tabState.isActive ? 'active' : '';
 
+    let iconToRender = radioIcon;
+    if (activeClass !== '') {
+      iconToRender = radioIconSelected;
+    }
+
     return (
       <a part="tab-anchor" class={activeClass} onClick={() => this.tabController.select()}>
-        <i class="tab-icon" part="tab-icon">
-          {activeClass === '' && { radioIcon }}
-          {activeClass !== '' && { radioIconSelected }}
-        </i>
+        <i class="tab-icon" part="tab-icon" innerHTML={iconToRender}></i>
         <span part="tab-label">{this.label}</span>
       </a>
     );
