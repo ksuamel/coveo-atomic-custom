@@ -1,6 +1,6 @@
 {
   "name": "@jcore/custom-atomic-react",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "description": "Coveo Atomic custom components React wrapper",
   "author": "",
   "homepage": "https://github.com/jcore/coveo-atomic-custom",
@@ -16,7 +16,7 @@
     "dist"
   ],
   "dependencies": {
-    "@jcore/custom-atomic": "^0.0.18"
+    "@jcore/custom-atomic": "^0.0.19"
   },
   "publishConfig": {
     "access": "public",
