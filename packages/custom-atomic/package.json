@@ -1,6 +1,6 @@
 {
   "name": "@jcore/custom-atomic",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "Coveo Atomic custom components React wrapper",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
@@ -39,7 +39,6 @@
   "devDependencies": {
     "@rollup/plugin-alias": "3.1.9",
     "@rollup/plugin-replace": "2.4.2",
-    "@stencil/angular-output-target": "0.4.0",
     "@stencil/postcss": "2.1.0",
     "@stencil/react-output-target": "^0.5.3",
     "@stencil/store": "1.5.0",
