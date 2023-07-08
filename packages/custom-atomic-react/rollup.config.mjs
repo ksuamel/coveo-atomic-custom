@@ -26,6 +26,7 @@ const commonExternal = [
   "react-dom/server",
   "@coveo/atomic",
   "@coveo/headless",
+  "@jcore/custom-atomic",
 ];
 
 /** @returns {import('rollup').OutputOptions} */
@@ -47,7 +48,7 @@ const plugins = [
     values: {
       "process.env.NODE_ENV": JSON.stringify("dev"),
       "util.TextEncoder();": "TextEncoder();",
-      "import { defineCustomElements } from '@jcore/atomic/loader';": "",
+      "import { defineCustomElements } from '@jcore/custom-atomic/loader';": "",
       "defineCustomElements();": "",
     },
     preventAssignment: true,

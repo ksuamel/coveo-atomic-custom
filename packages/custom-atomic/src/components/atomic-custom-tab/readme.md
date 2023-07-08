@@ -21,6 +21,7 @@
 | Part           | Description |
 | -------------- | ----------- |
 | `"tab-anchor"` |             |
+| `"tab-icon"`   |             |
 | `"tab-label"`  |             |
 
 
