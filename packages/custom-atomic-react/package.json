@@ -1,9 +1,9 @@
 {
-  "name": "@jcore/custom-atomic-react",
-  "version": "0.0.19",
+  "name": "@ksuamel/custom-atomic-react",
+  "version": "0.0.20",
   "description": "Coveo Atomic custom components React wrapper",
   "author": "",
-  "homepage": "https://github.com/jcore/coveo-atomic-custom",
+  "homepage": "https://github.com/ksuamel/coveo-atomic-custom",
   "license": "ISC",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jcore/coveo-atomic-custom.git"
+    "url": "git+https://github.com/ksuamel/coveo-atomic-custom.git"
   },
   "scripts": {
     "test": "node ./__tests__/react-library.test.js",
@@ -38,7 +38,7 @@
     "build:bundles": "concurrently \"npm run build:bundles:esm\" \"npm run build:bundles:cjs\"  \"npm run build:bundles:iife\""
   },
   "bugs": {
-    "url": "https://github.com/jcore/coveo-atomic-custom/issues"
+    "url": "https://github.com/ksuamel/coveo-atomic-custom/issues"
   },
   "devDependencies": {
     "@types/react": "^18.2.14",

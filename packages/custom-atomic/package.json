@@ -1,5 +1,5 @@
 {
-  "name": "@jcore/custom-atomic",
+  "name": "@ksuamel/custom-atomic",
   "version": "0.0.19",
   "description": "Coveo Atomic custom components React wrapper",
   "main": "dist/index.cjs.js",
@@ -12,7 +12,7 @@
   "unpkg": "dist/custom-atomic/custom-atomic.esm.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jcore/coveo-atomic-custom.git"
+    "url": "https://github.com/ksuamel/coveo-atomic-custom.git"
   },
   "publishConfig": {
     "access": "public",
