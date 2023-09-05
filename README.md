@@ -3,9 +3,11 @@
 ## prerequisites
 
 Install yarn globally
+`npm install --global yarn`
 
 install lerna cli globally
 install concurrently globally
+`npm install --global lerna-cli concurrently`
 
 ## build
 
@@ -14,8 +16,8 @@ npm run build
 
 ## to publish
 
-git config credential.username "jcore"
-git login https://github.com/jcore/coveo-atomic-custom.git/
+git config credential.username "ksuamel"
+git login https://github.com/ksuamel/coveo-atomic-custom.git/
 
 lerna publish
 
