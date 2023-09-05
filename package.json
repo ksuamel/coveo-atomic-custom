@@ -13,7 +13,8 @@
   },
   "workspaces": [
     "packages/custom-atomic",
-    "packages/custom-atomic-react"
+    "packages/custom-atomic-react",
+    "packages/custom-search-box-category-suggestions"
   ],
   "devDependencies": {
     "@rollup/plugin-commonjs": "^22.0.2",

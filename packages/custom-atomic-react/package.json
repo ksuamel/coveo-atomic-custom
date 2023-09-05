@@ -16,7 +16,7 @@
     "dist"
   ],
   "dependencies": {
-    "@jcore/custom-atomic": "^0.0.19"
+    "@ksuamel/custom-atomic": "^0.0.19"
   },
   "publishConfig": {
     "access": "public",
@@ -47,7 +47,7 @@
     "typescript": "^5.1.3"
   },
   "peerDependencies": {
-    "@jcore/custom-atomic": ">=0.0.18",
+    "@ksuamel/custom-atomic": ">=0.0.18",
     "react": ">=18.0.0",
     "react-dom": ">=18.0.0"
   },

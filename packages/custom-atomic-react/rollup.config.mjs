@@ -48,7 +48,8 @@ const plugins = [
     values: {
       "process.env.NODE_ENV": JSON.stringify("dev"),
       "util.TextEncoder();": "TextEncoder();",
-      "import { defineCustomElements } from '@jcore/custom-atomic/loader';": "",
+      "import { defineCustomElements } from '@ksuamel/custom-atomic/loader';":
+        "",
       "defineCustomElements();": "",
     },
     preventAssignment: true,

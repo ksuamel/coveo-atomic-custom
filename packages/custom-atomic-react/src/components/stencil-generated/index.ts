@@ -1,11 +1,14 @@
 /* eslint-disable */
 /* tslint:disable */
 /* auto-generated react proxies */
-import { createReactComponent } from './react-component-lib';
+import { createReactComponent } from "./react-component-lib";
 
-import type { JSX } from '@jcore/custom-atomic';
+import type { JSX } from "@jcore/custom-atomic";
 
-import { defineCustomElements } from '@jcore/custom-atomic/dist/loader';
+import { defineCustomElements } from "@ksuamel/custom-atomic/dist/loader";
 
 defineCustomElements();
-export const AtomicCustomTab = /*@__PURE__*/createReactComponent<JSX.AtomicCustomTab, HTMLAtomicCustomTabElement>('atomic-custom-tab');
+export const AtomicCustomTab = /*@__PURE__*/ createReactComponent<
+  JSX.AtomicCustomTab,
+  HTMLAtomicCustomTabElement
+>("atomic-custom-tab");
